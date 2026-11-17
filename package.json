@@ -1,0 +1,28 @@
+{
+  "name": "lontier-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lontier — Luxury Lifestyle & Executive Concierge. Marketing site.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "telegram:chat-id": "node scripts/telegram.mjs chat-id",
+    "telegram:test": "node scripts/telegram.mjs test"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
